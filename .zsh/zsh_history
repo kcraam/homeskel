@@ -1,0 +1,513 @@
+cd .vim/bundle
+git clone git clone https://github.com/scrooloose/syntastic.git
+git clone https://github.com/scrooloose/syntastic.git
+ls
+rm -fr syntastic
+cd
+ffprobe -show_frames -pretty /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp
+man ffprobe
+man ffprobe
+ffprobe -v
+ffprobe -V
+cd
+port selfupdate
+port selfupdate
+port list outdated
+port info ffprobe
+port info ffmpeg
+port install ffmpeg +nonfree +mmx
+cd
+ls
+ls -c
+git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg
+cd ffmpeg
+ls
+less README
+less INSTALL
+less INSTALL
+./configure
+port info poppler
+make
+top -o cpu
+svn co https://ffprobe.svn.sourceforge.net/svnroot/ffprobe/trunk ffprobe
+cd ffprobe
+ls
+less INSTALL
+ls
+less README
+cd ..
+rm -fr ffprobe
+ls
+./ffprobe
+./ffprobe --help
+./ffprobe -show_frames -show_packets -count_frames /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp
+ls
+cd ffmpeg
+ls
+./ffprobe -show_frames -show_packets -count_frames /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp
+./ffprobe -show_frames -show_packets -count_frames /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp >| prova.txt
+vi prova.txt
+./ffprobe -show_frames -count_frames /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp >| prova.txt
+rm -fr prova.txt
+./ffprobe -show_frames -count_frames /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp >| prova.txt
+vi prova.txt
+./ffprobe -show_frames /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp | grep 'pkt_duration' | sed -e 's/pkt_duration=//g' >| data.txt
+less data.txt
+rm -fr data.txt
+./ffprobe -show_frames /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp | grep 'pkt_duration=' | sed -e 's/pkt_duration=//g' >| data.txt
+less data.txt
+gnuplot
+rm -fr data.txt
+./ffprobe -show_frames /Users/mcollado/Desktop/videos/prova_nitro_480.mp4 | grep 'pkt_duration=' | sed -e 's/pkt_duration=//g' >| data.txt
+gnuplot
+less data.txt
+./ffprobe -show_frames /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp
+./ffprobe -show_frames /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_2.avi | grep 'pkt_duration=' | sed -e 's/pkt_duration=//g' >| data.txt
+gnuplot
+port list inactive
+./ffprobe -show_frames /Users/mcollado/Desktop/videos/prova_nitro_480.mp4 | grep 'pkt_duration=' | sed -e 's/pkt_duration=//g' >| data.txt
+gnuplot
+clear
+ssh nsi2.car.loc
+ls -l /Users/mcollado/.ssh/master-mcollado@nsi2.car.loc:22
+rm -fr /Users/mcollado/.ssh/master-mcollado@nsi2.car.loc:22
+ssh nsi2.car.loc
+tmux new-session
+exit
+ssh nsi2.car.loc
+ssh nsi3.car.loc
+ssh 84.88.95.124
+ssh 84.88.95.124
+man ssh
+ping 84.88.95.124
+ssh 84.88.95.124
+ssh 84.88.95.124
+dig -x 84.88.95.124
+ping 84.88.95.125
+ping 84.88.95.125
+ssh 84.88.95.125
+ssh nsi3
+diff dhcp.conf-nsi2 dhcp.conf-nsi3
+vi .vimrc
+diff dhcp.conf-nsi2 dhcp.conf-nsi3
+diff dhcp.conf-nsi2 dhcp.conf-nsi3 | less
+ssh 84.88.95.125
+diff dhcp.conf-nsi2 dhcp.conf-nsi3 | less
+diff dhcp.conf-nsi2 dhcp.conf-nsi3 | grc | less
+diff dhcp.conf-nsi2 dhcp.conf-nsi3 | less
+exit
+open ,
+open .
+ping 192.168.0.33
+arp -an
+dig redmine.car.edu
+ping redmine.car.edu
+ssh 84.88.95.125
+ssh 84.88.95.25
+vi .ssh/known_hosts
+ssh 84.88.95.25
+ssh 84.88.95.25
+ssh syslog.car.loc
+ssh syslog.car.loc
+rm -fr /Users/mcollado/.ssh/master-mcollado@syslog.car.loc:2
+rm -fr /Users/mcollado/.ssh/master-mcollado@syslog.car.loc:22
+ssh syslog.car.loc
+su -
+su -
+exit
+tmux ls
+man tmux
+tmux attach-session 1
+tmux attach-session -t 1
+tmux attach-session -t 0
+ps awx
+exit
+ssh redmine.car.edu
+ssh redmine.car.edu
+ssh redmine.car.edu
+cat .tmux.conf
+cat .tmux.conf
+ssh redmine.car.edu
+sysctl -a | grep temp
+sysctl -a | grep t
+sysctl -a | grep t | less
+ssh nsi2.car.loc
+ssh redmine.car.edu
+ping 192.168.0.1
+ping 192.168.0.1
+ssh redmine.car.edu
+ping 84.88.95.25
+ssh -l mcollado 84.88.95.25
+ping 192.168.2.2
+ping 192.168.2.2
+ping 84.88.95.
+ping 84.88.95.5
+dig www.apple.com @84.88.95.5
+dig www.apple.com @84.88.95.7
+ping 192.168.2.2
+ping 192.168.2.3
+ping 84.88.95.25
+ssh 84.88.95.25
+ssh 84.88.95.25
+cd
+ls
+cd ffmpeg
+ls
+clear
+ping mexico.car.loc
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_2.avi | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $8, $33 }' >| data.txt
+rm -fr data.txt
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_2.avi | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $8, $33 }' >| data.txt
+gnuplot
+ping 192.168.2.5
+less data.txt
+gnuplot
+./ffprobe /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_2.avi
+./ffprobe -show_frames/Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_2.avi
+./ffprobe -show_frames /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_2.avi
+tmux ls
+tmux
+ssh nsi2.car.loc
+ssh nsi2.car.loc
+ssh nsi3.car.loc
+vi .tmux.conf
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_2.avi | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $9, $33 }' >| data.txt
+less data.txt
+gnuplot
+gnuplot
+rm -fr data.txt
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_3.mp | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $9, $33 }' >| data.txt
+gnuplot
+less data.txt
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_3.mp4 | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $9, $33 }' >| data.txt
+less data.txt
+gnuplot
+gnuplot
+ssh nsi2.car.loc
+ssh nsi2.car.loc
+ssh nsi3.car.loc
+ssh 192.168.2.3
+ssh 192.168.2.2
+rm -fr /Users/mcollado/.ssh/master-mcollado@192.168.2.2:22
+ssh 192.168.2.2
+rm -fr /Users/mcollado/.ssh/master-mcollado@192.168.2.3:22
+ssh 192.168.2.3
+ssh 192.168.2.3
+ssh 192.168.2.2
+ssh 192.168.2.2
+ssh 192.168.2.3
+/Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/cam001_3.mp4
+clear
+ssh 84.99.95.5
+ssh 84.88.95.7
+ssh 84.88.95.5
+dig mexico.car.loc
+ping vcenter.car.loc
+ping 172.17.200.200
+ssh -l root mexico.car.loc
+ssh -l root mexico.car.loc
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/video001_3.mp4 | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $9, $33 }' >| data.txt
+gnuplot
+less data.txt
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $9, $33 }' >| data.txt
+less data.txt
+rm -fr data.txt
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $9, $33 }' >| data.txt
+rm -fr data.txt
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Desktop/videos/VIDEO\ 0001.3gp | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $9, $33 }' >| data.txt
+less data.txt
+rm -fr data.txt
+./ffprobe -print_format csv -show_frames -show_packets /Users/mcollado/Documents/CAR/TAE/Rack\ Analogics\ GAM-GAF/Videos/video001_3.mp4 | grep 'video' | sort -g --field-separator=',' --key=4 | paste -s -d ',\n' - | awk -F ',' '{ print $3, $9, $33 }' >| data.txt
+less data.txt
+gnuplot
+less data.txt
+gnuplot
+tmux ls
+tmux attach -t 0
+cd
+cd Dropbox
+cd Perl
+vi sente.pl
+chmod 764 sente.pl
+vi sente.pl
+./sente.pl
+ls
+rm -fr Sente\ 5\ Authorization\ Code
+cd
+su -
+su -
+cd .vim/bundle
+ls
+git clone https://github.com/majutsushi/tagbar.git tagbar
+ls
+dig -x 192.168.2.242
+ssh syslog.car.loc
+exit
+vim
+vim .vimrc
+ls Dropbox/Perl
+vi Dropbox/Perl/stopwatch.pl
+vi Dropbox/Perl/primi.pl
+vim prova_replace.txt
+ping sw-res.car.loc
+telnet sw-res.car.loc
+vi tasques.txt
+vi temporal
+telnet 192.168.2.140
+ping lp-direccio.car.loc
+ps awx | grep ssh
+ssh 192.168.1.91
+cd
+cat configuration.yml
+exit
+ping 84.88.95.25
+ssh 192.168.1.91
+exit
+ssh 84.88.95.7
+cd /Users/mcollado/Downloads/guapdf
+ls
+./guapdf -h
+./guapdf -y -m /Users/mcollado/Downloads/Estatut\ bàsic\ de\ l �empleat\ públic\ .pdf
+su -
+vi solarized.iterm
+tmux ls
+tmux attach -t 0
+s
+top
+open .Trash
+top
+ping 192.168.2.7
+ssh 192.168.1.91
+ssh redmine.car.edu
+dig redmine.car.edu
+ssh redmine.car.edu
+ping redmine.car.edu
+ping redmine.car.edu
+ssh redmine.car.edu
+vi /Users/mcollado/.ssh/known_hosts
+ssh redmine.car.edu
+exit
+exit
+exit
+exit
+exit
+exit
+tmux ls
+exit
+top -o cpu
+ps
+ps awx
+ps awx
+top -o cpu
+ps awx
+RimAlbumArtDaemon -h
+whereis RimAlbumArtDaemon
+ps awx
+vim /Users/mcollado/zshrc
+vim /Users/mcollado/Afegir\ VLAN\ 2\ als\ UCS\ i\ vCenter\ MECAR\ \(+\ switchos\ intermitjos\).confg.-confg
+ps awx
+tmux new-session
+vi /private/etc/ntp-restrict.conf
+vi /private/etc/ntp.conf
+ps awx
+ps awx grep ntp
+ps awx |grep ntp
+kill -1 56
+BBdaemon -h
+man BBdaemon -h
+man BBdaemon
+!
+ps awx | grep 242
+tmux attach -t0
+ps awx | grep 242
+open /Library/Little Snitch/
+open "/Library/Little Snitch/"
+top
+ps awx | less
+man pboard
+ps awx | less
+open /Applications/Xarxa/
+less /Library/InputManagers/SIMBL/Info
+ps awx | grep 439
+man Lonum
+vi
+vi
+vi
+port info vim
+port installed | grep vim
+vi
+vi
+port info macvim
+su -
+cd .vim/plugin
+ls
+cd ..
+ls
+cd bundle
+ls
+git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex
+git git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex
+git clone git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex
+ls
+ls vim-latex
+vim
+vim
+port seach atp-vim
+port search atp-vim
+ls
+rm -fr vim-latex
+dig registre.car.edu @192.168.2.15
+dig registre.car.edu @192.168.2.16
+dig registre.car.edu @192.168.2.19
+dig registre.car.edu @192.168.2.2
+dig registre.car.edu @192.168.2.3
+dig registre.car.edu @84.88.95.7
+dig registre.car.edu @84.88.95.5
+cd
+vi
+vi
+cd
+glade3
+rehash
+glade3
+glade-3
+glade-3
+cd /Users/mcollado/Dropbox/Perl
+perl -v
+cd
+ls
+tmux new-session
+ssh 192.168.1.191
+ssh 192.168.1.191
+ls
+git clone git@github.com:kcraam/homeskel.git
+cd homeskel
+ls
+ls -la
+git help
+pwd
+cp ../.vimrc ./
+ls -la
+rm -fr .vimrc
+cp ../.vimrc ./
+ls -la
+less .vimrc
+man cp
+cat ~/.zshrc
+pwd
+cp -fr ../vim ./
+cp -fr ../.vim ./
+ls -la
+less .vim
+ls .vim
+man git
+git -help
+git -h
+git -
+git help
+git commit
+git add .vimrc
+git commit
+git pull
+git help
+git push
+git rm .vim
+ls -la
+git show
+git rm .vim
+cd .vim
+ls
+ls vimrc
+less vimrc
+git rm *
+cd ..
+git reset HEAD^
+git hel reset
+git help reset
+git reset .vim
+ls -la
+ls -la .vim
+git help reset
+git reset --soft HEAD
+git reset --soft HEAD^
+ls -la .vim
+git help reset
+git reset -q 83570b885c3e98132668613fb25ef15d7bd5cb8d .vim
+ls
+ls -la
+git pull
+ls -la
+cd ..
+rm -fr homeskel
+git clone git@github.com:kcraam/homeskel.git
+cd homeskel
+ls -la
+ls .vim
+git rm .vim
+git mv .vim vim_to_delete
+git help
+ls
+ls -la
+rm -fr .vim
+git rm .vim
+git rm .vimrc
+ls -la
+git commit -m "Removing bad Vim files and directories"
+git push
+cp -r ../.vim* ./
+ls -la
+less .viminfo
+rm -fr .viminfo
+git help add
+git add -A .vim*
+git status
+git rm .vim/colors/.DS_Store
+git rm -f .vim/colors/.DS_Store
+git rm -f .vim/syntax/.DS_Store
+git rm -f .vim/.DS_Store
+git status
+git commit -m "More vim files"
+git push
+git status
+git mv .README.md README.md
+git status
+vi .gitignore
+cd /Users/mcollado/Dropbox/UOC
+ls -la
+cd
+mkdir prova_tex
+cd prova_tex
+cp /Users/mcollado/Dropbox/UOC/formulari_PIE.tex ./
+mate formulari_PIE.tex
+ls
+open .
+ls -l
+git add .gitignore
+git status
+cd
+ls
+ls opt
+ls opt/src
+ls tmp
+ls
+ls -la
+ls .git
+less .gitconfig
+less .gitignore
+less .gitmodules
+git rm .gitmodules
+git status
+ls .ssh
+: 1346239429:0;less .ssh/config
+: 1346239453:0;less ../.ssh
+: 1346239458:0;ls ../.ssh
+: 1346239478:0;less ../.ssh/config
+: 1346239497:0;ls
+: 1346239500:0;ls -la
+: 1346239508:0;vi .ssh/config
+: 1346239551:0;less .tmux.conf
+: 1346239597:0;vi .tmux.conf
+: 1346239612:0;vi .tmux.conf
+: 1346241477:0;pwd
+: 1346241489:0;cp ../.tmux.conf ./
+: 1346241516:0;cp -rv ../.zsh* ./

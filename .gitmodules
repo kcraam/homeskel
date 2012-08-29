@@ -1,6 +1,0 @@
-[submodule ".vim"]
-	path = .vim
-	url = git://github.com/dpc/vim-config.git
-[submodule ".multimarkdown"]
-	path = .multimarkdown
-	url = git://github.com/fletcher/MultiMarkdown.git

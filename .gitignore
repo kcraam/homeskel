@@ -43,3 +43,12 @@ Thumbs.d
 *.maf
 *.mtc
 *.mtc0
+
+# ZSH Files
+######################
+cache
+custom_hosts
+custom_users
+host_user_completion_settings
+zdirdump
+zsh_history

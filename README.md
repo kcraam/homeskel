@@ -1,4 +1,5 @@
-# dpc's home directory skeleton
+# Kcraam's home directory skeleton
+A fork from dpc's
 
 ## Introduction
 

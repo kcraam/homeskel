@@ -3,9 +3,9 @@ A fork from dpc's
 
 ## Introduction
 
-This directory contains home skeleton that I use for my Linux accounts.
+This directory contains home skeleton that I use for my *nix accounts.
 
-Each time I'm given a new Linux system to work on or a shell account somewhere
+Each time I'm given a new *nix system to work on or a shell account somewhere
 I clone this repository to make my working environment the one that I'm used to.
 
 Many things are tailored for my personal needs, but as I at least try to keep
@@ -22,14 +22,14 @@ You have been warned.
 
 ## Support
 
-In case of any questions please just drop me an email: dpc@ucore.info
+In case of any questions please just drop me an email: kcraam@gmail.com
 
 ## Integrated screen/tmux support
 
 By default each remote connection is wrapped into the screen/tmux shell. This
 way I don't have to remember to launch screen/tmux manually.
 
-I've described this idea on my Wiki:
+He (dpc) has described this idea on his Wiki:
 http://dpc.ucore.info/forum/t-220201/gnu-screen-as-a-default-shell-for-remote-account
 
 This feature have been under constant development and is working very smoothly
@@ -45,6 +45,7 @@ environment variables.
 * vim config, bash in vim mode
 * git aliases
 * bash aliases
+* zsh config files
 * ssh wrappers for screen/tmux
 * .nobackup files for rdup
 * possibly others
@@ -57,7 +58,7 @@ environment variables.
 This is how I deploy my scripts on new systems.
 
 * `cd $HOME`
-* `wget -O CLONE.sh http://github.com/dpc/homeskel/raw/master/.CLONE.sh`
+* `wget -O CLONE.sh http://github.com/kcraam/homeskel/raw/master/.CLONE.sh`
 * run `sh CLONE.sh`
 * while they are still any issues: fix them any re-run `sh CLONE.sh`
 

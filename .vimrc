@@ -27,7 +27,12 @@ set ignorecase
 set smartcase
 colorscheme desert
 "colorscheme evening 
+let g:solarized_termcolors=256
+set background=dark
+"colorscheme solarized
+"
 set printoptions=paper:A4
+
 
 set autoindent 
 set smartindent 
